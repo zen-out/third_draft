@@ -24,7 +24,7 @@ export default function Signup() {
                           <input
                             className="input is-link"
                             type="text"
-                            placeholder="nickname"
+                            placeholder="First name"
                             name="name"
                           />
                           <span className="focus-border"></span>
@@ -33,32 +33,21 @@ export default function Signup() {
                           </span>
                         </div>
                         <p className="help is-warning">e.g., lezzles</p>
-                      </div>
+                      </div>{" "}
                       <div className="field">
-                        <p className="control has-icons-left">
-                          <span className="select">
-                            <select className="select2" name="timezone">
-                              <option value="Asia/Bangkok">Bangkok</option>
-                              <option value="Europe/Barcelona">
-                                Barcelona
-                              </option>
-                              <option value="Europe/Copenhagen">
-                                Copenhagen
-                              </option>
-                              <option value="Asia/Hong_Kong">Hong Kong</option>
-                              <option value="Europe/London">London</option>
-                              <option value="Australia/Melbourne">
-                                Melbourne
-                              </option>
-                              <option value="America/New_York">New York</option>
-                              <option value="Asia/Tokyo">Tokyo</option>
-                            </select>
-                          </span>
+                        <div className="control has-icons-left effect-1">
+                          <input
+                            className="input is-link"
+                            type="text"
+                            placeholder="Last name"
+                            name="name"
+                          />
+                          <span className="focus-border"></span>
                           <span className="icon is-small is-left">
-                            <i className="icon icon-status"></i>
+                            <i className="icon icon-cute"></i>
                           </span>
-                        </p>
-                        <p className="help">what time is it now?</p>
+                        </div>
+                        <p className="help is-info">e.g., peterson</p>
                       </div>
                       <div className="field">
                         <div className="control has-icons-left effect-1">
@@ -95,7 +84,6 @@ export default function Signup() {
                           function here
                         </p>
                       </div>
-
                       <span className="vertical">
                         <button
                           type="submit"
