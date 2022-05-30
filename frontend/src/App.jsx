@@ -1,6 +1,7 @@
 import Button from "./components/Button";
 import Input from "./components/Input";
 import ProgressCard from "./components/ProgressCard";
+import InfoCard from "./components/InfoCard";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
@@ -20,7 +21,8 @@ function App() {
   return (
     <div className="p-6">
       {" "}
-      <Navbar/>
+      <InfoCard />
+      <Navbar />
       <Header />
       <ProgressCard
         percentage="70%"
