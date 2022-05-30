@@ -20,6 +20,7 @@ function App() {
   return (
     <div className="p-6">
       {" "}
+      <Navbar/>
       <Header />
       <ProgressCard
         percentage="70%"
